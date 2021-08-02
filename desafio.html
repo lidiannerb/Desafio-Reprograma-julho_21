@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workshop - Desafio</title>
+    <link rel="stylesheet" type="text/css" href="css/desafio.css" />
+  </head>
+
+  <body>
+
+    <header class = "cabecalho">
+      <h1 class = "cabecalho_titulo">Valor do Projeto</h1>
+    </header>
+
+    <section class = "apresentacao">
+      <h2>Calcule o valor do seu projeto inserindo os dados abaixo</h1>
+    </section>
+
+    <label for="valor-hora">Qual o valor da sua hora de trabalho?</label>
+    <input id="valor-hora" type="number" value="0"/>
+
+    <label for="horas-projeto">Em quantas horas você fez o projeto?</label>
+    <input id="horas-projeto" type="number"  value="0"/>
+
+    
+    <button onclick="calcular()">Calcular Projeto</button>
+
+    <span id="resposta">R$ 0,00</span>
+
+    <a href="index.html">Voltar</a>
+
+    <script type="text/javascript" src="js/desafio.js"></script>
+  </body>
+</html>
